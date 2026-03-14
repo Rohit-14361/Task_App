@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:3000',"https://task-app-rvad.onrender.com/"],
+  origin: ['http://localhost:3000',"https://task-app-self-eight.vercel.app"],
   credentials: true
 }));
 
